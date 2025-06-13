@@ -1,12 +1,26 @@
-# React + Vite
+# 🛒 E-commerce App (Fake Store API + Cart Modal)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive front-end e-commerce app built with **React.js** and **Tailwind CSS**. It fetches product data from the **Fake Store API** and allows users to view items, add them to a cart, and manage cart contents through a modal interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📦 Fetches real-time products using Fake Store API
+- 🛍️ Add to Cart functionality with quantity control
+- 🪟 Cart modal with item preview and total price
+- 📱 Fully responsive design for desktop and mobile
+- 🎯 Clean UI with Tailwind CSS components
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js, Tailwind CSS
+- **API**: [Fake Store API](https://fakestoreapi.com/)
+- **State**: React Hooks (useState, useEffect)
+- **UX/UI**: Modal implementation, responsive layout
+
+## 🧑‍💻 How to Run Locally
+
+```bash
+git clone https://github.com/santhoshmariappam13/ecommerce-app.git
+cd ecommerce-app
+npm install
+npm start
